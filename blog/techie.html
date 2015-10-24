@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ML Techie</title>
+		<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css"><!--  Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="../assets/css/blog.css"><!--  custom CSS -->
+    	<link rel="stylesheet" type="text/css" href="../assets/css/animate.css"> <!-- Animate CSS -->
+
+	</head>
+	<body>
+		<!-- Google Analytics Tag -->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-69239661-1', 'auto');
+			ga('send', 'pageview');
+		</script><!--  /Google Analytics -->
+		<style>
+			body{
+				background-color: rgb(230, 235, 234);
+			}
+		</style>
+
+		<div class="container blog-page">
+      		<div class="nav col-xs-10 col-xs-offset-1">
+        		<ul class="nav nav-pills pull-right">
+          			<li class=""><a href="../index.html">Home</a></li>
+          			<li><a href="login.php">Log In</a></li>
+        		</ul>
+        		<h3 class="text-muted">Project Journals</h3>
+      		</div><!--  /col-xs-10 -->
+      		<div class="blog-buttons col-xs-10 col-xs-offset-1">
+	  			<div class="btn-group btn-group-center" role="group" aria-label="">
+				  <button onclick="window.location='techie.html';" type="button" class="btn btn-default active">Techie</button>
+				  <button onclick="window.location='photography.html';" type="button" class="btn btn-default">Photography</button>
+				  <button onclick="window.location='food.html';" type="button" class="btn btn-default">Food</button>
+				</div><!-- /btn-group -->
+			</div>
+      		<div class="header col-xs-10 col-xs-offset-1">
+	        	<h2 class="title">Let's talk tech</h2>
+	        	<p class="lead">I'm building a quadcopter drone, a beastly custom computer, and playing with a Raspberry Pi.</p>
+  
+			
+				<hr>
+      		</div><!--  /header -->
+      		
+      		<!-- POSTS -->
+      		<div class="row">
+	      		<div id="content" class="col-xs-8 col-xs-offset-1"> 
+
+	      			<!-- Post 4 -->
+	      			<article id="post4" class="post">
+		      			<div class="post-panel">
+		      				<div class="media loaded">
+				        		<a href="images/mattFlyingDrone.jpg" target="_blank"><img src="images/mattFlyingDrone.jpg" alt="Naze32 flight controller"></a>
+				        		</div><!--  /media -->
+					        	<div class="copy">
+							        <h4><span class="text-muted">30-JULY-2015: </span>Taking Flight.</h4>
+							        <h5 class="text-muted">Feels like flying! </h5>
+							        <p>Set up of the Naze32 wasn’t too hard. I was a bit nervous that I might have overheated the board while soldering the headers in or fused two traces together, but luckily we didn’t see smoke on startup. Using Baseflight on Chrome was pretty straightforward. Although I was a bit surprised that there is no official documentation with this software. However, we found a set up guide online, click here if you need it: <a href="http://quadquestions.com/wp-content/uploads/2014/11/acro_naze32_guide_5th_ed.pdf" target="_blank">Naze32 setup Guide by Dlearnt.</a></p>
+							        <br>
+							        <p> 
+							       	Here I am in this photo getting ballsy with the drone as I accelerate it at me then whip it back forward last second. You can likely tell from my expression that I’m a bit nervous, as I’m a complete newb with this. Regardless, I’m just glad to be flying it. 
+
+							        </p>
+					        	</div><!--  /copy -->
+			      		</div><!--  /post-panel -->
+			      		<div class="post-shadow"></div>
+		      		</article><!--  /post3 -->
+
+	      			<!-- Post 3 -->
+	      			<article id="post3" class="post">
+		      			<div class="post-panel">
+		      				<div class="media loaded">
+				        		<a href="images/Naze32.jpg" target="_blank"><img src="images/Naze32.jpg" alt="Naze32 flight controller"></a>
+				        		</div><!--  /media -->
+					        	<div class="copy">
+							        <h4><span class="text-muted">22-JULY-2015: </span>Drone - New Controller!</h4>
+							        <h5 class="text-muted">This should do the trick! </h5>
+							        <p>	After messing around with the standard, non-customizable controllers, I've decided I might as well just jump in the deep end with a real controller. The weapon of choice, Naze32.</p>
+							        <br>
+							        <p> This puppy comes with a solder-yourself connections, leaving you the flexibility of choosing which headers you want to use, as well as enough room to screw things up if you don't solder it properly.
+							       
+							        </p>
+					        	</div><!--  /copy -->
+			      		</div><!--  /post-panel -->
+			      		<div class="post-shadow"></div>
+		      		</article><!--  /post3 -->
+
+		      		<!-- Post 2 -->
+		      		<article id="post2" class="post">
+		      			<div class="post-panel">
+		      				<div class="media loaded">
+				        		<a href="images/friedController.jpg" target="_blank"><img src="images/friedController.jpg" alt="KK2.1 flight controller"></a>
+				        		</div><!--  /media -->
+					        	<div class="copy">
+							        <h4><span class="text-muted">9-JULY-2015: </span>Cooking It!</h4>
+							        <h5 class="text-muted">We've seem to become masters of frying electronics. </h5>
+							        <p>	This is hard. Or maybe we are hard-headed. We seem to consistently toast new electronics as they arrive in their fresh HobbyKing packaging. It seemed as though we had it figured out. The suspects, electronic speed controllers and the flight controller. We've gone through several iterations of failures.</p>
+							        <br>
+							        <p> For now we've decided to order both new ESCs and a new flight controller. Good thing these parts are relatively inexpensive, although the cost is starting to add up. Had we been working on a NASA project, we'd probably already burned through a couple million.
+							        </p>
+					        	</div><!--  /copy -->
+					        	<!-- <div class="meta">
+					        		<ul class="meta-list">
+					        			<li class="date"></li>
+					        			<li class="notes"></li>
+					        			<li class="permalink"></li>
+					        		</ul>
+					        		<div class="share">
+					        			<span class="toggle">Share</span>
+					        			<div class="widget"></div>
+					        		</div>
+					        	</div> --><!--  /meta -->
+			      		</div><!--  /post-panel -->
+			      		<div class="post-shadow"></div>
+		      		</article>
+
+		      		<article id="post1" class="post">
+		      			<div class="post-panel">
+		      				<div class="media loaded">
+				        		<a href="images/quadteam.jpg" target="_blank"><img src="images/quadteam.jpg" alt="quadcopter team Dave Hughes (left) Brian Carr (right)"></a>
+				        		</div><!--  /media -->
+					        	<div class="copy">
+							        <h4><span class="text-muted">11-JUNE-2015: </span>The Team</h4>
+							        <h5 class="text-muted">Let's <strike>make</strike> break stuff! </h5>
+							        <p>I started this quadcopter project a little over a year ago at this point. After a few weeks of complete confusion, followed by some understanding, and ultimately sourcing parts by best guess, the quadcopter parts arrived. I immediately enlisted my super technically inclined roommate, Rick, to help me put it all together. We were somewhat surprised to find that all of the components came with zero assembly instructions or documentation. To put one of these together you have to rely on your own knowledge of electronics (zero for me) or the few scattered forum discussions and YouTube videos.
+							        </p>
+							        <br>
+							        <p> 
+							        Within a few hours we got it all together. When we went to fly it, it was incredibly unstable. Since we were both maddingly busy with work, we never got the chance to take it back out to figure out the issues. Thus, it sat in my room until a few months later I decided to make my move to DC.
+							        </p>
+							        <br>
+							        <p> 
+							        Arrive Upstate, I assemble a new drone crew. Meet the team: Brian and Dave! Two friends from highschool that are still in the area. Probably the most technically inclined of my high school friends as they are a computer engineer and architect. 
+							        </p>
+					        	</div><!--  /copy -->
+					        	<!-- <div class="meta">
+					        		<ul class="meta-list">
+					        			<li class="date"></li>
+					        			<li class="notes"></li>
+					        			<li class="permalink"></li>
+					        		</ul>
+					        		<div class="share">
+					        			<span class="toggle">Share</span>
+					        			<div class="widget"></div>
+					        		</div>
+					        	</div> --><!--  /meta -->
+			      		</div><!--  /post-panel -->
+			      		<div class="post-shadow"></div>
+		      		</article>
+
+		      	</div><!--  /content -->
+	      	<!-- ===== SIDE BAR ====== -->
+		      	<div id="sidebar" class="col-xs-3 col-sm-2 col-sm-offset-1">
+		      		<div id="blog-info" class="side-box">
+		      			<div class="img-div"><img src="images/MattWorking1.jpg"></div>
+		      			<div class="description">
+		      				<p></p>
+		      				<p align="left">
+		      					<strong>Matt Lashinsky</strong>
+		      					<br>
+		      					<br>
+		      					Welcome to the blog where I humiliate myself. This blog is essentially a how-to manual on destroying electronics and breaking nice things in the process of building them. Continue to check back from time to time to hear about my latest blunders and occasional breakthroughs. 
+		      					<br>
+		      					<br>
+		      					Connect with me on social media if you want to stay in touch. 
+		      					<br>
+		      					<br>
+		      					<a href="https://plus.google.com/u/0/117868198943421001531/" target="_blank">Google +</a>
+		      					<br>
+		      					<a href="https://www.facebook.com/matt.lashinsky" target="_blank">Facebook</a>
+		      					<br>
+		      					<a href="https://twitter.com/MattALashinsky" target="_blank">Twitter</a>
+		      					<br>
+		      				</p>
+		      			</div><!--  /description -->
+		      		</div><!--  /blog-info -->
+		      		<div id="search">
+		      			<form id="search-form" method="get" action="/search">
+			      			<span class="left"></span>
+			      			<input type="text" name="q" value="Search">
+			      			<span class="right"></span>
+		      			</form>
+		      		</div><!--  /search -->
+		      	</div><!--  /sidebar -->
+		    </div><!-- /row -->
+    	</div> <!-- /container -->
+
+    	<!-- jQuery & Javascript files -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> <!-- jQuery -->
+    	<script src="../assets/js/bootstrap.min.js"></script> <!-- Bootstrap Minified -->
+	    <script src="../assets/js/wow.min.js"></script> <!-- WOW Animation -->
+	    <script src="../assets/js/custom.js"></script> <!-- Custom Javascript -->
+	    <script src="../assets/js/TweenMax.js"></script> <!-- Green Sock minified -->
+	</body>
+
+	<footer>
+	    <a href="#">
+	    	<div class="pull-right backToTop">
+	    		<div class="popup-text">
+	    			<p>Back to top!</p>
+	    		</div>
+	    		<span class="glyphicon glyphicon-download-alt"></span>
+	    	</div>
+	    </a>
+	    <p class="text-center">&copy; 2015 &middot; Matt Lashinsky &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  	</footer>
+</html>
