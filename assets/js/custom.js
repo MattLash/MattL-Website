@@ -266,18 +266,6 @@ var main = function(){
     $this.children().children().toggleClass('glyphicon-menu-down');
     $this.children().children().toggleClass('glyphicon-menu-right');
   });
-
-
-
-  //========================== BLOG IMAGE ROTATION ====================//
-
-  $('.slides').click(function(){
-    $this = $(this) // cache 'this' into an js var before it changes
-    $this.children().each(function(){
-      $(this).hide();
-      $(this).next.show();
-    });
-  });
   
 } //~~~~~~~~~ END MAIN ~~~~~~~~~~~~~
 
@@ -285,4 +273,3 @@ $(document).ready(main);
 
 /* Create HTML5 element for IE */
 document.createElement("section");
-
