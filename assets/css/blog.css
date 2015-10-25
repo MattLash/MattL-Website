@@ -171,7 +171,7 @@
   font-size: 50px;
   background-color: #fff;
   opacity: 0;
-  box-shadow: 100px 0px 100px #fff;
+  box-shadow: 50px 0px 50px #fff;
 }
 
 .previous:hover{
@@ -190,7 +190,7 @@
   font-size: 50px;
   background-color: #fff;
   opacity: 0;
-  box-shadow: -100px 0px 100px #fff;
+  box-shadow: -50px 0px 50px #fff;
 }
 .next:hover{
   opacity: .5;
