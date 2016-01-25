@@ -1,0 +1,210 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*==================================================================*/
+/* ========================: BLOG PAGES :===========================*/
+
+.blog-page .jumbotron{
+  background-color: #fff;
+  margin-top: 20px;
+}
+.blog-page .title{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #007AB5;
+}
+.post-panel{
+  border: 1px solid #fcf9f8;
+  background: #fff;
+  position: relative;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #616566;
+  margin: 20px 0px;
+  box-shadow: 0 0 0 4px rgba(0,0,0,0.03) inset,0 0 0 1px rgba(0,0,0,0.15);
+  word-wrap: break-word;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.media img{
+  overflow: auto;
+  width: 100%;
+}
+#marina-bay img:hover{
+  width:;
+}
+#sidebar{
+  float:left;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  font-size: 12px;
+  line-height: 19px;
+  display: block;
+  font-family: Helvetica, Arial, sans-serif;
+  color:#616566;
+  background-color: transparent;
+}
+#sidebar p{
+  margin-bottom: 22px;
+}
+#sidebar img{
+  margin: auto;
+  padding: auto;
+  float: left;
+  display: block;
+  float: none;
+  position: relative;
+  width: 100%;
+  max-width: 170px
+  box-shadow: 0px 0px 5px 1px #f8f8f2;
+}
+#sidebar .img-div{
+  border: 4px solid #fff;
+}
+#sidebar img:hover{
+  opacity: 0;
+}
+#sidebar .img-div:hover{
+  background-image: url('../../blog/images/MattWorking2.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+#search{
+  float: none;
+    padding: 0 0 25px;
+    width: 180px;
+    margin: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  position: relative;
+}
+#search-form::before{
+  content: '\00a0';
+  background-image: url("http://static.tumblr.com/hugxd2w/YUsma9g5b/effector-sprite.png");
+  background-repeat: no-repeat;
+  background-position: -150px -50px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 9px;
+  left: 12px;
+  display: block;
+}
+#search-form input{
+  color: #999;
+  font-family: Arial, Helvetica Neue, sans-serif;
+  font-size: 12px;
+  height: 30px;
+  width: 150px;
+  display: block;
+  line-height: 24px;
+  padding: 5px 0 4px;
+  border-radius: 20px;
+  padding: 1px 20px 0 26px;
+  background: white;
+  border: 3px solid rgba(0,0,0,0.15);
+  outline: none;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.2),inset 0 1px 3px rgba(0,0,0,0.5);
+}
+.copy{
+  padding-top: 30px;
+  clear: both;
+  word-wrap: break-word;
+  font-family: Georgia, Palatino, serif;
+  margin: 0 30px;
+  color: #626566;
+}
+.backToTop{
+  width: 50px;
+  height: 50px;
+  background-color: #FF6E3B;
+  box-shadow: inset 0 0 0 1px #fff;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-size: 10px
+
+}
+.backToTop span{
+    left: 20px;
+    top:20px;*/
+    -ms-transform: rotate(180deg) scale(2,2); /* IE 9 */
+    -webkit-transform: rotate(180deg) scale(2,2); /* Chrome, Safari, Opera */
+    transform: rotate(180deg) scale(2,2);
+    color: #fff;
+}
+.popup-text{
+  display: none;
+  position: absolute;
+  top: -20px;
+  left: -2px;
+  width: 65px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  height: 15px;
+}
+.backToTop:hover .popup-text{
+  display: block;
+}
+
+.media{
+  position: relative;
+}
+
+.previous{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left:0px;
+  height: 100%;
+  width: 20%;
+  z-index: 5;
+  color: #FF6E3B;
+  font-size: 50px;
+  background-color: #fff;
+  opacity: 0;
+  box-shadow: 50px 0px 50px #fff;
+}
+
+.previous:hover{
+  opacity: .5;
+
+}
+.next{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right:0px;
+  height: 100%;
+  width: 20%;
+  z-index: 5;
+  color: #FF6E3B;
+  font-size: 50px;
+  background-color: #fff;
+  opacity: 0;
+  box-shadow: -50px 0px 50px #fff;
+}
+.next:hover{
+  opacity: .5;
+}
+
+.previous span{
+  float: left;
+  padding-top: 150%
+}
+.next span{
+  float: right;
+  padding-top: 150%
+}
+
+@media(max-width: 500px){
+  .next{
+    font-size: 25px;
+  }
+  .previous{
+    font-size: 25px;
+  }
+}
